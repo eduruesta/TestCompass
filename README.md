@@ -28,6 +28,7 @@ by whitespace characters as a single word. Example:
 
 # Demo
 
-https://github.com/eduruesta/TestCompass/assets/19229375/7792ecf3-9d9c-4550-90c4-1b5a6b1fe359
+https://github.com/eduruesta/TestCompass/assets/19229375/a10b9cf6-389d-4f32-991e-f9507986778e
+
 
 
