@@ -74,8 +74,10 @@ class MainViewModel(
     }
 
     private fun every10thCharacterRequest(text: String): List<String> {
-        val words = text.split(Regex("\\s+"))
-        return words.filterIndexed { index, _ -> (index + 1) % 10 == 0 }
+        return text.filter { !it.isWhitespace() }
+            .mapIndexedNotNull { index, char ->
+                if ((index + 1) % 10 == 0) char.toString() else null
+            }
     }
 
     private fun countWords(text: String): Map<String, Int> {
