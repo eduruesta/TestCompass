@@ -73,21 +73,12 @@ dependencies {
     implementation(libs.kotlinx.coroutines.android)
     implementation("com.squareup.retrofit2:retrofit:2.9.0")
     implementation("com.squareup.retrofit2:converter-scalars:2.9.0")
-    androidTestImplementation("org.mockito.kotlin:mockito-kotlin:3.2.0")
-    androidTestImplementation("io.insert-koin:koin-test:3.1.2")
-
-
-
-
     implementation(libs.ktor.client.serialization)
     implementation(libs.androidx.lifecycle.viewmodel.compose)
     implementation(libs.androidx.lifecycle.viewmodel.ktx)
-    // Koin
     implementation(libs.koin.android)
     implementation(libs.koin.androidx.compose)
     implementation(libs.koin.core)
-
-    // Room
     implementation(libs.androidx.room.runtime)
     //noinspection KaptUsageInsteadOfKsp
     kapt(libs.androidx.room.compiler)
